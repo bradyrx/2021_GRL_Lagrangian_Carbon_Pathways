@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore the big files in data that can be retrieved from Zenodo
+data/*.nc
+data/*.zarr
+data/*.mat
