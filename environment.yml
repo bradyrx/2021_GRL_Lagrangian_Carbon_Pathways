@@ -1,0 +1,38 @@
+name: brady-carbonpathways 
+channels:
+  - conda-forge
+dependencies:
+  # IDE
+  - jupyter
+  - jupyterlab
+  - jupyter-server-proxy
+  # Input/Output
+  - netcdf4
+  - zarr
+  # Numerics
+  - cbsyst
+  - esmtools
+  - numpy
+  - pandas
+  - scipy
+  - seawater
+  - xarray
+  - xhistogram
+  # Performance
+  - bottleneck
+  - dask
+  - numba
+  # Visualization
+  # Fixes a bug with dask dashboard.
+  - bokeh<2.0.0
+  - cartopy
+  - matplotlib
+  - nc-time-axis
+  - proplot
+  - seaborn
+  - pip>=20.1
+  - pip:
+      - ncar_jobqueue
+      - PyCO2SYS
+      - gsw
+      - nb_black 
