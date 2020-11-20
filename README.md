@@ -4,6 +4,8 @@
 
 Contact: riley.brady@colorado.edu
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4281539.svg)](https://doi.org/10.5281/zenodo.4281539)
+
 This repository houses the code used for analysis and visualization in the above manuscript submitted to Geophysical Research Letters. This repository serves to support open-source science by making the analysis transparent and accessible to other scientists. 
 
 The trimmed down Lagrangian particle trajectories can be retrieved at Zenodo. The Zenodo also holds the relavent Eulerian mesh information needed for analysis. 
